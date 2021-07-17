@@ -120,7 +120,7 @@ def train():
                                                                                                         "gamma": args.gamma})
 
     # path to save model
-    path_to_save = os.path.join(args.save_folder, args.dataset, args.version)
+    path_to_save = os.path.join(args.save_folder, args.version)
     os.makedirs(path_to_save, exist_ok=True)
 
     # use hi-res backbone
